@@ -10,4 +10,9 @@ public class Dog extends Pet{
         public void dig(){
             System.out.println(getName() + " digs a hole!");
         }
+
+    @Override
+    public void eats() {
+
     }
+}
