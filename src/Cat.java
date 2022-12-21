@@ -22,4 +22,8 @@ public class Cat extends Pet {
         System.out.println("Purrrrrrr!");
     }
 
+    @Override
+    public void move() {
+        System.out.println("crawl");
+    }
 }
