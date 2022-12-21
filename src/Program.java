@@ -18,6 +18,12 @@ public class Program {
         c.makeSound();
         Bird b = new Bird("Tweety",3,4.5f);
         b.makeSound();
+        c.move();
+        b.move();
+        Dog v = new Dog("Bella", 15,"German Sherpard");
+        v.dig();
+        v.move();
+        v.eats();
 
 
     }
